@@ -6,7 +6,10 @@ compatible with Stuart Sierra reloaded workflow."
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [mount "0.1.11"]
-                 [cprop "0.1.11"]]
+                 [cprop "0.1.11"]
+                 [compojure "1.6.0"]
+                 [luminus-immutant "0.2.3"]
+                 [ring/ring-defaults "0.3.1"]]
 
 ;;dependencie for creating inline documentation with marginalia `lein marg`
   :plugins [[lein-marginalia "0.9.0"]]
