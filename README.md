@@ -1,6 +1,10 @@
 # repl-workflow-demo
 
-A Clojure library designed to ... well, that part is up to you.
+This library will demonstrate working with REPL using reloaded workflow.
+
+I will follow documentation in this library: https://github.com/stuartsierra/component
+
+Documentation will be done using [lein-marginalia "0.9.0"] 
 
 ## Usage
 
