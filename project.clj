@@ -1,5 +1,5 @@
 (defproject repl-workflow-demo "0.1.0-SNAPSHOT"
-  :description "This project will demstrate setting up development that is
+  :description "This project will demsontrate setting up development that is
 compatible with Stuart Sierra reloaded workflow."
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -11,8 +11,10 @@ compatible with Stuart Sierra reloaded workflow."
                  [luminus-immutant "0.2.3"]
                  [ring/ring-defaults "0.3.1"]]
 
-;;dependencie for creating inline documentation with marginalia `lein marg`
-  :plugins [[lein-marginalia "0.9.0"]]
+;;dependencie for creating api documentation with codex `lein codox`
+;; for inline documentation `lein marg ./src/clj/ ./env/dev/clj/`
+  :plugins [[lein-codox "0.10.3"]
+            [lein-marginalia "0.9.0"]]
 
   :source-paths ["src/clj"]
   :test-paths ["test/clj"]
