@@ -9,5 +9,5 @@
   (GET "/" [] "<h1>Hello World!</h1>")
   (route/not-found "<h1>Page not found</h1>"))
 
-(def app
+(defn app []
   (wrap-defaults app-routes site-defaults))

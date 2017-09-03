@@ -10,5 +10,5 @@
 
 (defstate http-server
   "luminus-immutant server"
-  :start (http/start {:handler app :port 3300})
+  :start (http/start {:handler (app) :port 3300})
   :stop (http/stop http-server))
