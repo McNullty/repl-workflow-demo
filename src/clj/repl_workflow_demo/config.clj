@@ -30,8 +30,11 @@
 ;; In production this would be set with ENV variables so we don't need to set it
 ;; for production environment.
 ;;
-(defstate env :start (load-config
-                       :merge
-                       [(args)
-                        (source/from-system-props)
-                        (source/from-env)]))
+(defstate env
+  "This is environment state that will have all configurations for all other
+   states in our system"
+  :start (load-config
+           :merge
+           [(args)
+            (source/from-system-props)
+            (source/from-env)]))

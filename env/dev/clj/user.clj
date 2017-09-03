@@ -1,7 +1,7 @@
 (ns user
   (:require [mount.core :as mount]
             [clojure.tools.namespace.repl :as tn]
-            repl-workflow-demo.config))
+            repl-workflow-demo.core))
 
 ;; This namespace is to be used for speeding up repl development.
 ;;

@@ -1,6 +1,10 @@
-(ns repl-workflow-demo.core)
+(ns repl-workflow-demo.core
+  (:require [mount.core :refer [defstate]]
+           [repl-workflow-demo.config :refer [env]]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+;; This is main namespace with entry point for application.
+
+(defstate http-server
+  "**TODO:** For now this id a mock that is dependent on some other state"
+  :start (println env)
+  :stop (println "http-server is stopping"))
