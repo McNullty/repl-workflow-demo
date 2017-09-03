@@ -2,9 +2,11 @@
 
 This library will demonstrate working with REPL using reloaded workflow.
 
-I will follow documentation in this library: https://github.com/stuartsierra/component
+I will follow documentation in this library: https://github.com/tolitius/mount
+Mount library is alternative to Stuarts Sierra Component library, but it is used
+by Luminus framework, is still deleoped and markets itself as more flexible.
 
-Documentation will be done using [lein-marginalia "0.9.0"] 
+Documentation will be done using [lein-marginalia "0.9.0"]
 
 ## Usage
 
