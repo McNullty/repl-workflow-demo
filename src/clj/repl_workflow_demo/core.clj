@@ -12,7 +12,10 @@
 ;; If we want to set default path we need to use keyword :handler-path and not :path as it is described in imutant documentation.
 ;;
 ;; We could also assign additional handlers to diferent paths using http/wrap-handler as described in [here](https://github.com/luminus-framework/luminus-immutant)
-(defstate http-server
+;;
+;; We can svecifie what will happen with state on relaod with :on-reload, options are :noop, :stop and :restart (default). But this is not very usefull beacause when we stop and start state it will automatically restart.
+(defstate ^{:on-reload :noop}
+  http-server
   "luminus-immutant server"
   :start (http/start
            (-> env
