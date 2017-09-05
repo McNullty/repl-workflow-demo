@@ -1,5 +1,6 @@
 (ns user
   (:require [mount.core :as mount]
+            [mount-up.core :as mu]
             [clojure.tools.namespace.repl :as tn]
             repl-workflow-demo.core))
 
@@ -60,3 +61,7 @@
   []
   (stop)
   (tn/refresh :after 'user/go))
+
+;; Configure logging for mount library
+;; TODO: think if this should be in production environment also
+(mu/on-upndown :info mu/log :before)

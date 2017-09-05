@@ -9,7 +9,9 @@ compatible with Stuart Sierra reloaded workflow."
                  [cprop "0.1.11"]
                  [compojure "1.6.0"]
                  [luminus-immutant "0.2.3"]
-                 [ring/ring-defaults "0.3.1"]]
+                 [ring/ring-defaults "0.3.1"]
+                 [org.clojure/tools.logging "0.4.0"]
+                 [tolitius/mount-up "0.1.0"]]
 
 ;;dependencie for creating api documentation with codex `lein codox`
 ;; for inline documentation `lein marg ./src/clj/ ./env/dev/clj/`

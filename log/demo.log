@@ -1,0 +1,48 @@
+2017-09-05 22:49:27,784 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-05 22:49:52,845 [nREPL-worker-0] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-05 22:49:52,942 [nREPL-worker-0] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-05 22:49:53,199 [nREPL-worker-0] INFO  org.projectodd.wunderboss.web.Web - Registered web context /test 
+2017-09-05 22:50:03,036 [nREPL-worker-0] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-05 22:50:03,043 [nREPL-worker-0] INFO  luminus.http-server - HTTP server stopped 
+2017-09-05 22:50:03,252 [nREPL-worker-0] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-05 22:50:03,253 [nREPL-worker-0] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-05 22:50:03,265 [nREPL-worker-0] INFO  org.projectodd.wunderboss.web.Web - Registered web context /test 
+2017-09-05 22:54:43,191 [nREPL-worker-1] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-05 22:54:43,196 [nREPL-worker-1] INFO  luminus.http-server - HTTP server stopped 
+2017-09-05 22:55:13,142 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-05 22:55:23,821 [nREPL-worker-1] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.config/env 
+2017-09-05 22:55:23,899 [nREPL-worker-1] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:55:23,914 [nREPL-worker-1] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-05 22:55:24,002 [nREPL-worker-1] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-05 22:55:24,270 [nREPL-worker-1] INFO  org.projectodd.wunderboss.web.Web - Registered web context /test 
+2017-09-05 22:55:36,763 [nREPL-worker-1] INFO  mount-up.core - << stopping.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:55:36,765 [nREPL-worker-1] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-05 22:55:36,773 [nREPL-worker-1] INFO  luminus.http-server - HTTP server stopped 
+2017-09-05 22:55:36,774 [nREPL-worker-1] INFO  mount-up.core - << stopping.. #'repl-workflow-demo.config/env 
+2017-09-05 22:55:36,966 [nREPL-worker-1] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.config/env 
+2017-09-05 22:55:36,990 [nREPL-worker-1] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:55:36,991 [nREPL-worker-1] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-05 22:55:36,993 [nREPL-worker-1] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-05 22:55:36,998 [nREPL-worker-1] INFO  org.projectodd.wunderboss.web.Web - Registered web context /test 
+2017-09-05 22:56:33,117 [nREPL-worker-2] INFO  mount-up.core - << stopping.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:56:33,125 [nREPL-worker-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-05 22:56:33,133 [nREPL-worker-2] INFO  luminus.http-server - HTTP server stopped 
+2017-09-05 22:56:33,134 [nREPL-worker-2] INFO  mount-up.core - << stopping.. #'repl-workflow-demo.config/env 
+2017-09-05 22:56:33,149 [nREPL-worker-2] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.config/env 
+2017-09-05 22:56:33,174 [nREPL-worker-2] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:56:33,174 [nREPL-worker-2] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-05 22:56:33,175 [nREPL-worker-2] DEBUG org.projectodd.wunderboss.WunderBoss - Returning existing component for org.projectodd.wunderboss.web.Web:-1645144552, ignoring options. 
+2017-09-05 22:56:33,200 [nREPL-worker-2] INFO  org.projectodd.wunderboss.web.Web - Registered web context /test 
+2017-09-05 22:56:53,035 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-09-05 22:57:01,387 [nREPL-worker-0] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.config/env 
+2017-09-05 22:57:01,467 [nREPL-worker-0] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:57:01,476 [nREPL-worker-0] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-05 22:57:01,560 [nREPL-worker-0] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-09-05 22:57:01,785 [nREPL-worker-0] INFO  org.projectodd.wunderboss.web.Web - Registered web context /test 
+2017-09-05 22:57:05,994 [nREPL-worker-0] INFO  mount-up.core - << stopping.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:57:06,000 [nREPL-worker-0] INFO  luminus.http-server - HTTP server stopped 
+2017-09-05 22:57:06,001 [nREPL-worker-0] INFO  mount-up.core - << stopping.. #'repl-workflow-demo.config/env 
+2017-09-05 22:57:06,195 [nREPL-worker-0] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.config/env 
+2017-09-05 22:57:06,218 [nREPL-worker-0] INFO  mount-up.core - >> starting.. #'repl-workflow-demo.core/http-server 
+2017-09-05 22:57:06,219 [nREPL-worker-0] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-09-05 22:57:06,226 [nREPL-worker-0] INFO  org.projectodd.wunderboss.web.Web - Registered web context /test 
